@@ -226,7 +226,7 @@ TYPE html>
   document.addEventListener('DOMContentLoaded', () => {
 
     // Cargar Navbar
-    fetch('navbar.html')
+    fetch('Navbar.html')
       .then(response => response.text())
       .then(data => {
         document.getElementById('navbar-container').innerHTML = data;
@@ -260,10 +260,10 @@ TYPE html>
   <!-- SCRIPT NAVBAR -->
   <script>
     // Cargar Navbar desde navbar.html
-    fetch('navbar.html')
+    fetch('Navbar.html')
       .then(response => response.text())
       .then(data => {
-        document.getElementById('navbar-container').innerHTML = data;
+        document.getElementById('Navbar-container').innerHTML = data;
       })
       .catch(error => console.error('Error al cargar la Navbar:', error));
   </script>
